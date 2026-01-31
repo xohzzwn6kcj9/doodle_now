@@ -102,6 +102,8 @@ public class DoodleListFragment extends Fragment
         swipeRefreshContainer.setOnRefreshListener(this);
         swipeRefreshContainer.setOnChildScrollUpListener(this);
 
+        setListAndEmptyViewVisibility(0);
+
         return view;
     }
 
